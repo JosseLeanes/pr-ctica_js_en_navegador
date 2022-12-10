@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josefina">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Control de Gastos</title>
+</head>
+
+<body>
+    <main>
+        <section class="seccAddInfo">
+            <h1>Control de gastos</h1>
+            <p id="intro"></p>
+            <div class="FormAddPresupuesto">
+                <h2>Total presupuesto</h2>
+                <input type="text">
+                <button>Añadir</button>
+            </div>
+            <div class="FormAddGasto">
+                <h2>Concepto</h2>
+                <input type="text" class="FormAddGasto_Nombre">
+                <h2>Monto</h2>
+                <input type="number" class="FormAddGasto_Valor">
+                <button>Añadir</button>
+            </div>
+
+            <div class="containerGastos">
+                <div class="containerGastosEncabezado">
+                    <p class="tituloGasto">Concepto</p>
+                    <p>Monto</p>
+
+                </div>
+
+                <ul class="containerGastos_lista">
+
+                </ul>
+
+            </div>
+
+
+
+
+            </div>
+        </section>
+        <section class="seccResultados">
+            <div class="seccResultados_Presupuesto">
+                <h3>Presupuesto</h3>
+                <p>+€ 0</p>
+            </div>
+            <div class="seccResultados_Gastos">
+                <h3>Gastos</h3>
+                <p>- €0</p>
+
+            </div>
+            <div class="seccResultados_Saldo">
+                <h3>Saldo</h3>
+                <p>€0</p>
+            </div>
+        </section>
+
+    </main>
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
